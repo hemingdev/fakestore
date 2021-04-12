@@ -1,35 +1,70 @@
 {
   "current": {
+    "color_text": "#141414",
+    "color_body_text": "#141414",
+    "color_button": "#141414",
+    "color_image_overlay_text": "#141414",
+    "color_image_overlay": "#ffffff",
+    "image_overlay_opacity": 0,
+    "type_header_font": "roboto_n4",
+    "type_header_base_size": 28,
+    "type_base_font": "roboto_n4",
+    "type_base_size": 16,
     "sections": {
       "header": {
         "type": "header",
-        "settings": {}
-      },
-      "hero-1": {
-        "type": "hero",
         "settings": {
-          "hero_size": "large",
-          "text_size": "large"
+          "align_logo": "left",
+          "logo": "shopify:\/\/shop_images\/fakestore-logo_2x_a742a85d-1b49-4805-bb4b-201768091814.png",
+          "logo_max_width": 230,
+          "main_linklist": "main-menu",
+          "message": true,
+          "home_page_only": true,
+          "message_text": "Free Shipping & Returns on Every Order!",
+          "color_bg": "#005bc4",
+          "color_text": "#ffffff"
         }
       },
       "feature-row": {
         "type": "feature-row",
-        "settings": {}
+        "disabled": true,
+        "settings": {
+          "layout": "right",
+          "title": "Image with text",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "button_label": ""
+        }
       },
       "feature-columns": {
         "type": "feature-columns",
+        "disabled": true,
         "blocks": {
           "feature-columns-0": {
             "type": "text_block",
-            "settings": {}
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": ""
+            }
           },
           "feature-columns-1": {
             "type": "text_block",
-            "settings": {}
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": ""
+            }
           },
           "feature-columns-2": {
             "type": "text_block",
-            "settings": {}
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": ""
+            }
           }
         },
         "block_order": [
@@ -38,35 +73,46 @@
           "feature-columns-2"
         ],
         "settings": {
-          "title": ""
+          "title": "",
+          "align_text": "left"
         }
       },
       "collection": {
         "type": "collection",
+        "disabled": true,
         "settings": {
-          "grid": 4
-        }
-      },
-      "hero-2": {
-        "type": "hero",
-        "settings": {
-          "text_size": "large"
+          "title": "Featured collection",
+          "collection": "",
+          "grid": 4,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
         }
       },
       "quotes": {
         "type": "quotes",
+        "disabled": true,
         "blocks": {
           "quotes-0": {
             "type": "quote",
-            "settings": {}
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
           },
           "quotes-1": {
             "type": "quote",
-            "settings": {}
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
           },
           "quotes-2": {
             "type": "quote",
-            "settings": {}
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
           }
         },
         "block_order": [
@@ -80,18 +126,28 @@
       },
       "image-bar": {
         "type": "image-bar",
+        "disabled": true,
         "blocks": {
           "image-bar-0": {
             "type": "image",
-            "settings": {}
+            "settings": {
+              "alignment": "center",
+              "cta_label": ""
+            }
           },
           "image-bar-1": {
             "type": "image",
-            "settings": {}
+            "settings": {
+              "alignment": "center",
+              "cta_label": ""
+            }
           },
           "image-bar-2": {
             "type": "image",
-            "settings": {}
+            "settings": {
+              "alignment": "center",
+              "cta_label": ""
+            }
           }
         },
         "block_order": [
@@ -99,18 +155,25 @@
           "image-bar-1",
           "image-bar-2"
         ],
-        "settings": {}
+        "settings": {
+          "section_height": "medium"
+        }
       },
       "footer": {
         "type": "footer",
         "blocks": {
           "footer-0": {
             "type": "link_list",
-            "settings": {}
+            "settings": {
+              "title": "Quick links",
+              "menu": "footer"
+            }
           },
           "footer-1": {
             "type": "newsletter",
-            "settings": {}
+            "settings": {
+              "title": "Newsletter"
+            }
           }
         },
         "block_order": [
@@ -118,18 +181,149 @@
           "footer-1"
         ],
         "settings": {
-          "show_payment_icons": true
+          "show_payment_icons": true,
+          "color_footer_bg": "#f6f6f6",
+          "color_footer_text": "#333232",
+          "show_locale_selector": true,
+          "show_currency_selector": true
+        }
+      },
+      "16181766071e885567": {
+        "type": "hero-new",
+        "blocks": {
+          "49e9dbce-3b2f-458a-9a74-e4da25f6c29f": {
+            "type": "hero_button",
+            "settings": {
+              "label": "Women",
+              "link": "#"
+            }
+          },
+          "0d4962e6-0f8e-41a4-80de-6859610db5da": {
+            "type": "hero_button",
+            "settings": {
+              "label": "Men",
+              "link": "#"
+            }
+          },
+          "a3897f0e-c3cd-48d4-aa36-9afca6567bf6": {
+            "type": "hero_button",
+            "settings": {
+              "label": "Kids",
+              "link": "#"
+            }
+          },
+          "b44c3e75-b7a3-4b67-82fc-983d0104d456": {
+            "type": "hero_button",
+            "settings": {
+              "label": "Home",
+              "link": "\/"
+            }
+          }
+        },
+        "block_order": [
+          "49e9dbce-3b2f-458a-9a74-e4da25f6c29f",
+          "0d4962e6-0f8e-41a4-80de-6859610db5da",
+          "a3897f0e-c3cd-48d4-aa36-9afca6567bf6",
+          "b44c3e75-b7a3-4b67-82fc-983d0104d456"
+        ],
+        "settings": {
+          "image": "shopify:\/\/shop_images\/hero_image_2x_b0c35b52-736b-4739-b255-db194bb3b0fb.png",
+          "image_mobile": "shopify:\/\/shop_images\/hero_image_mobile_2x_7ee295b3-7de8-496a-9e2b-82c943eb8df3.jpg",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "adapt",
+          "text_size": "large",
+          "subtitle": "In Stores & Online",
+          "title": "50% OFF EVERYTHING",
+          "text": ""
+        }
+      },
+      "1618235441367625ea": {
+        "type": "feature-row-new",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/image_block_2x_40bb792a-4438-47dc-aed7-96bdcf7039cb.jpg",
+          "layout": "right",
+          "title": "Vacay This Way",
+          "text": "<p>Everything you need for your summer get away!<\/p>",
+          "button_label": "SHOP SUMMER ESSENTIALS",
+          "button_link": "#"
+        }
+      },
+      "1618243414b7066ffc": {
+        "type": "feature-columns-new",
+        "blocks": {
+          "1618243414b7066ffc-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/new_arrivals_2x_4cbd8766-3de7-4eb8-982e-d074d0e5907a.jpg",
+              "title": "NEW ARRIVALS",
+              "text": "<p>Our latest Summer styles. Fresh. Fun. Fabulous.<\/p>",
+              "links": "<p><a href=\"#\" title=\"Women\">WOMEN<\/a>    |    <a href=\"#\" title=\"Men\">MEN<\/a>    |    <a href=\"#\" title=\"Kids\">KIDS<\/a>    |    <a href=\"\/\" title=\"\/\">HOME<\/a><\/p>"
+            }
+          },
+          "1618243414b7066ffc-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/college_bound_2x_b272c6a0-b708-4fb4-8a7e-1445e1e2793a.jpg",
+              "title": "COLLEGE BOUND",
+              "text": "<p>New places and new faces. Same great style.<\/p>",
+              "links": "<p><a href=\"#\" title=\"Shop Dorm Decor\">SHOP DORM DECOR<\/a><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1618243414b7066ffc-0",
+          "1618243414b7066ffc-1"
+        ],
+        "settings": {
+          "title": "",
+          "align_text": "left"
+        }
+      },
+      "16182471963dc3c140": {
+        "type": "features-new",
+        "blocks": {
+          "16182471963dc3c140-0": {
+            "type": "feature_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/shipping-icon_2x_b4b710c6-2fa4-41eb-af8c-8bc517a7ff15.png",
+              "text": "<p>FREE SHIPPING ON ALL ORDERS<\/p>"
+            }
+          },
+          "16182471963dc3c140-1": {
+            "type": "feature_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/returns-icon_2x_52f0580e-3f65-49fc-a50b-6c1770080d12.png",
+              "text": "<p>FREE RETURNS ON ALL ORDERS<\/p>"
+            }
+          },
+          "16182471963dc3c140-2": {
+            "type": "feature_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/checkout-icon_2x_a9bf592b-001f-4eda-a434-af3ce659784b.png",
+              "text": "<p>SAFE &amp; SECURE CHECKOUT<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "16182471963dc3c140-0",
+          "16182471963dc3c140-1",
+          "16182471963dc3c140-2"
+        ],
+        "settings": {
+          "title": "",
+          "bg_color_start": "#fafbfb",
+          "bg_color_end": "#f7f8f8"
         }
       }
     },
     "content_for_index": [
-      "hero-1",
-      "feature-row",
-      "feature-columns",
-      "collection",
-      "hero-2",
-      "quotes",
-      "image-bar"
+      "16181766071e885567",
+      "1618235441367625ea",
+      "1618243414b7066ffc",
+      "16182471963dc3c140"
     ]
   },
   "presets": {
