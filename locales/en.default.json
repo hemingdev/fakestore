@@ -365,7 +365,9 @@
       "account": "Account",
       "log_out": "Log out",
       "log_in": "Log in",
-      "create_account": "Create account"
+      "create_account": "Create account",
+      "my_account": "My Account",
+      "sign_in_or_up": "Sign in or Sign up"
     },
     "footer": {
       "social_platform": "{{ name }} on {{ platform }}"
