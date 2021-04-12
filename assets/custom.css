@@ -320,6 +320,14 @@ select:focus {
 	.feature-row-section .feature-row__text-wrapper {
 		padding: 0;
 	}
+	.feature-columns-section .feature-row__text-wrapper {
+		position: relative;
+		padding: 0;
+	}
+	.feature-columns-section .feature-row__text-inner {
+		padding: 30px;
+		box-shadow: none;
+	}
 }
 
 @media only screen and (max-width: 749px) {
@@ -329,6 +337,9 @@ select:focus {
 	}
 	.page-width {
 		padding: 0;
+	}
+	.site-header {
+		padding: 0 25px;
 	}
 	.site-header__icons {
 		padding: 0;
